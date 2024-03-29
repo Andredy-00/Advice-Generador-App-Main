@@ -1,0 +1,82 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: grid;
+    place-items: center;
+}
+
+body main {
+    position: relative;
+    background-color: hsl(217, 19%, 24%);
+    padding: 57px;
+    border-radius: 20px;
+    max-width: 575px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    margin: 20px;
+}
+
+body main h4 {
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+}
+
+body main .content-text {
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    margin: 6% 0 8% 0;
+}
+
+body main .content-text p {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+body main .content-plus {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+body main .content-plus img {
+    width: 100%;
+}
+
+body main .content-img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 90%;
+    left: 44%;
+}
+
+body main .content-img:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 20px hsl(150, 100%, 66%);
+}
+
+body main .content-img img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Movil */
+@media (max-width: 630px){
+   body main {
+    max-width: 430px;
+   }
+}
